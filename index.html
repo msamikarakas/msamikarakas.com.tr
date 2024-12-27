@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHAMMET SAMİ KARAKAŞ - İnşaat Mühendisi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .institution-list {
+            list-style: none;
+            padding: 0;
+        }
+        .institution-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Kurumlar arasında boşluk bırakır */
+        }
+        .institution-item img {
+            width: 50px; /* Logonun genişliğini ayarlar */
+            height: auto; /* Yüksekliği genişliğe göre otomatik ayarlar */
+            margin-right: 10px; /* Logo ile isim arasında boşluk bırakır */
+        }
+        .education-list {
+            list-style: none;
+            padding: 0;
+        }
+        .education-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Kurumlar arasında boşluk bırakır */
+        }
+        .education-item div {
+            flex: 1;
+            min-width: 50px; /* Metinlerin genişliğini ayarlar */
+        }
+        .education-item img {
+            width: 50px; /* Logonun genişliğini ayarlar */
+            height: auto; /* Yüksekliği genişliğe göre otomatik ayarlar */
+            margin-left: 5px; /* Logo ile okul adı arasında boşluk bırakır */
+        }
+        .about-section {
+            text-align: justify; /* Yazıyı iki yana yaslar */
+        }
+        .photo-section {
+            margin: 0 auto;
+            margin-top: 20px; /* Yazı ile fotoğraf arasında boşluk bırakır */
+            display: inline-block;
+        }
+        .photo-section img {
+            display: block;
+            margin-left: 20px; /* Fotoğrafı sağa kaydırır */
+            margin-top: 10px; /* Fotoğrafı aşağıya kaydırır */
+            width: 50%; /* Fotoğrafın genişliğini %50 oranında küçültür */
+            height: auto; /* Yüksekliği otomatik ayarlar ve oranı korur */
+            object-fit: cover; /* Fotoğrafın çerçeveye sığmasını sağlar */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="name">MUHAMMET SAMİ KARAKAŞ</div>
+        <nav>
+            <ul class="tabs">
+                <li class="tab-link current" data-tab="tab-1">Hakkımda</li>
+                <li class="tab-link" data-tab="tab-2">Eğitim</li>
+                <li class="tab-link" data-tab="tab-3">Mesleki Deneyim</li>
+                <li class="tab-link" data-tab="tab-4">Projeler</li>
+                <li class="tab-link" data-tab="tab-5">Beraber Çalışılan Kurumlar</li>
+                <li class="tab-link" data-tab="tab-6">İletişim</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div id="tab-1" class="tab-content current">
+            <div class="about-section">
+                <div class="description-section">
+                    <h1>İnşaat Mühendisi</h1>
+                    <p>Merhaba! Ben Muhammet Sami KARAKAŞ, İstanbul Teknik Üniversitesi İnşaat Mühendisliği bölümünden 3,5 yılda mezun oldum. Mezuniyetimin ardından Kayalar Holding ve Caba İnşaat'ta çalıştıktan sonra Nisan 2021'den beri Rönesans Holding bünyesinde Teknik Ofis Yöneticisi olarak çalışmaktayım. İşveren süreçlerinin yürütülmesi, bütçe-maliyet kontrolü ve teknik ofis süreçleri üzerinde çalışmalarımı sürdürmekteyim. Ağırlıklı olarak mukayeseli keşif süreçleri (iş artış/azalışı), maliyet-satış fayda çalışmaları ve bütçe-maliyet kontrolü üzerinde çalışmalarıma devam etsem de hakediş, ihale, kesin hesap, satın alma, sözleşme ve şantiye yönetimi süreçlerinde de bulundum ve ihtiyaç oldukça bulunmaktayım.</p>
+
+                    <p>Meslek hayatıma başladığım ilk günden bu yana 30'un üzerinde farklı projede çalıştım. TOKİ, İBB, ÇŞB, Sağlık Bakanlığı, VakıfGYO ve TOBB gibi pek çok idare ile çalışma fırsatı buldum. Ayrıca İstanbul Teknik Üniversitesinde Hidrolik ve Su Kaynakları Mühendisliği alanındaki yüksek lisans eğitimimde tez aşamasındayım.
+                    </p>
+                </div>
+                <div class="photo-section">
+                    <img src="https://i.imgur.com/5hMAcor.jpg" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+        <div id="tab-2" class="tab-content">
+            <h2>Eğitim Bilgileri</h2>
+            <ul class="education-list">
+                <li class="education-item">
+                    <div>
+                        <strong>Yüksek Lisans:</strong> İstanbul Teknik Üniversitesi, Hidrolik ve Su Kaynakları Mühendisliği<br>
+                        09/2018 – 06/2020
+                    </div>
+                    <img src="https://i.imgur.com/Kj4qSNd.jpg" alt="İTÜ Logo">
+                </li>
+                <li class="education-item">
+                    <div>
+                        <strong>Lisans:</strong> İstanbul Teknik Üniversitesi, İnşaat Mühendisliği<br>
+                        09/2010 – 01/2015
+                    </div>
+                    <img src="https://i.imgur.com/Kj4qSNd.jpg" alt="İTÜ Logo">
+                </li>
+                <li class="education-item">
+                    <div>
+                        <strong>Lise:</strong> Çankaya Milli Piyango Anadolu Lisesi (Betül Can Anadolu Lisesi)<br>
+                        09/2006 – 06/2010
+                    </div>
+                    <img src="https://i.imgur.com/ZLjgiE8.png" alt="Çankaya Lisesi Logo">
+                </li>
+                <li class="education-item">
+                    <div>
+                        <strong>İlköğretim:</strong> Fatih Sultan Mehmet İ.Ö.O<br>
+                        09/1998 – 06/2006
+                    </div>
+                    <img src="https://i.imgur.com/ZLjgiE8.png" alt="Fatih Sultan Mehmet İ.Ö.O Logo">
+                </li>
+            </ul>
+        </div>
+        <div id="tab-3" class="tab-content">
+            <h2>Mesleki Deneyim</h2>
+            <h3>Rönesans Holding - Ankara</h3>
+            <p><strong>Merkez Teknik Ofis</strong><br>04/2021 – Devam Ediyor</p>
+            <p><strong>Teknik Ofis Yöneticisi</strong></p>
+            <ul>
+                <li>Tamamlanan ve devam eden projelerin mukayeseli keşif, change order ve iş artış/eksiliş hesaplarının yapılması</li>
+                <li>İmalat değişikliklerine karar verilmesi aşamasında maliyet/satış çalışmalarının yapılması</li>
+                <li>Metrajların hazırlanıp kontrol edilmesi, birim fiyat analizlerinin yapılması</li>
+                <li>Proje kontrollerinin yapılması, gerekli eksikliklerin ve düzenlemelerin yaptırılması</li>
+                <li>Ataşman çizimleri, ticaret ve sanayi odası başvuru süreçlerinin hazırlığı ve fatura başvurularının yapılması</li>
+                <li>İlgili hesapların işverene anlatılması ve onayların alınması, işveren hakedişlerinin yapılması</li>
+                <li>Revize iş programlarının yapılması</li>
+            </ul>
+
+            <h3>Caba İnşaat - Ankara</h3>
+            <p><strong>Merkez Teknik Ofis</strong><br>10/2020 – 04/2021</p>
+            <p><strong>Teknik Ofis Mühendisi</strong></p>
+            <ul>
+                <li>Devam eden projelerin bütçelerinin hazırlanması</li>
+                <li>Şantiyeler arası koordinasyonun sağlanması</li>
+                <li>İşveren hakedişlerinin yapılması</li>
+                <li>Taşeron sözleşmelerinin hazırlanması</li>
+                <li>Taşeron hakedişlerinin yapılması</li>
+                <li>Taşeron tekliflerinin değerlendirlmesi</li>
+                <li>İşveren süreçlerinin yütülmesi, yazışmalarının yapılması ve ilgili onayların alınması</li>
+                <li>Tamamlanan işlerin kesin hesap dosyalarının hazırlanıp işveren onayına sunulması</li>
+                <li>İş programının hazırlanması</li>
+                <li>Metraj kontrolü ve maliyet-satış birim fiyat analizlerinin yapılması</li>
+                <li>Projelerde gerekli revizyon kararlarının verilmesi</li>
+            </ul>
+
+            <h3>Kayalar Holding - Ankara, İstanbul</h3>
+            <p><strong>Merkez Teknik Ofis (İstanbul)</strong><br>06/2017 – 10/2020</p>
+            <p><strong>Teknik Ofis Mühendisi</strong></p>
+            <ul>
+                <li>Bütçe hazırlanması ve maliyet kontrolü</li>
+                <li>Şantiyeler arası koordinasyonun sağlanması</li>
+                <li>İş artış/azalış kararlarının verilmesi ve hesapların hazırlanıp idareye onaylatılması (Değer Mühendisliği)</li>
+                <li>İşveren hakedişlerinin yapılması</li>
+                <li>Taşeron sözleşmelerinin hazırlanması</li>
+                <li>Taşeron hakedişlerinin yapılması</li>
+                <li>Satınalma ve tekliflerin değerlendirlmesi</li>
+                <li>İhale hazırlık süreçleri ve teklif çalışmalarının yapılması</li>
+                <li>İşveren süreçlerinin yütülmesi, yazışmalarının yapılması ve ilgili onayların alınması</li>
+                <li>İş programının hazırlanması</li>
+                <li>Metraj kontrolü ve maliyet-satış birim fiyat analizlerinin yapılması</li>
+            </ul>
+
+            <p><strong>Şantiye (Ankara)</strong><br>03/2015 – 06/2017</p>
+            <p><strong>Saha ve Teknik Ofis Mühendisi</strong></p>
+            <ul>
+                <li>Sahada yapılan imalatların iş akışına göre kontrolünün yapılması</li>
+                <li>Sahadaki işlerin yönetilmesi, sorun ve aksaklıkların giderilmesi</li>
+                <li>Çalışan performanslarının takip edilmesi</li>
+                <li>Günlük raporların oluşturulması</li>
+                <li>Metrajların yapılması</li>
+                <li>Mukayeseki keşif dosyalarının işverene sunulması ve onaylatılması</li>
+                <li>Taşeron hakedişlerinin yapılması</li>
+                <li>Satınalma ve tekliflerin değerlendirlmesi</li>
+            </ul>
+
+        </div>
+        <div id="tab-4" class="tab-content">
+            <h2>Çalışılan Projeler</h2>
+            <h3>Rönesans Holding</h3>
+            <ul>
+                <li>Ankara Adalet Sarayı</li>
+                <li>Sancaktepe Şehir Hastanesi</li>
+                <li>Cerrahpaşa Hastanesi</li>
+                <li>Bezmialem Üniversitesi Hastanesi</li>
+                <li>TSK Karargahı</li>
+                <li>Hatay Defne 1.Etap 1546 Konut</li>
+                <li>Hatay Defne 2.Etap 1523 Konut</li>
+                <li>Malatya Yeşilyurt 2.Etap 2341 Konut</li>
+                <li>Hatay Antakya 7.Etap 1131 Konut</li>
+                <li>Hatay Defne 3.Etap 773 Konut</li>
+                <li>Malatya Yeşilyurt 6.Etap 844 Konut</li>
+                <li>Adana Çukurova 2.Etap 980 Konut</li>
+                <li>İzmir Bayraklı 910 Konut</li>
+                <li>Kale Yerleşkesi 3.faz</li>
+                <li>TUSAŞ Rüzgar Tüneli</li>
+                <li>Vakıfbank Finans Merkezi</li>
+                <li>Elazığ Yemişlik 1072 Konut</li>
+                <li>Malatya Battalgazi 678 Konut</li>
+                <li>Marmaris Devlet Konukevi</li>
+            </ul>
+
+            <h3>Caba İnşaat</h3>
+            <ul>
+                <li>Niğde 400 Yataklı Devlet Hastanesi </li>
+                <li>Samsun İlkadım 710 Konut </li>
+                <li>Adana Sarıçam 473 Konut </li>
+                <li>Diyarbakır Çölgüzeli 810 Konut </li>
+                <li>Hakkari Havalimanı Kuleleri </li>
+                <li>Sincan 668 Konut </li>
+            </ul>
+
+            <h3>Kayalar Holding</h3>
+            <ul>
+                <li>Orman Genel Müdürlüğü Hizmet Binası Yerleşkesi(1.,2.,3.Etap)</li>
+                <li>TOBB Acil Durum Üniteleri İnşaatı (220 Konut) </li>
+                <li>İstanbul Kent Müzesi</li>
+                <li>Kağıthane Çok Katlı Otopark ve Spor Kompleksi</li>
+                <li>Üsküdar Kapalı Otopark, Spor Tesisi ve Yüzme Havuzu</li>
+                <!-- Diğer projelerinizi buraya ekleyin -->
+            </ul>
+        </div>
+        <div id="tab-5" class="tab-content">
+            <h2>Beraber Çalışılan Kurumlar</h2>
+            <ul class="institution-list">
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/iDhF6yt.jpg" alt="TOKİ Logo" class="logo">
+                    T.C. Toplu Konut İdaresi Başkanlığı
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/234ohyL.png" alt="OSGM Logo" class="logo">
+                    T.C. Orman Genel Müdürlüğü
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/kA377EX.jpg" alt="İBB Logo" class="logo">
+                    T.C. İstanbul Büyükşehir Belediyesi
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/vBzMYlQ.png" alt="Sağlık Bakanlığı Logo" class="logo">
+                    T.C. Sağlık Bakanlığı
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/FDmBEOQ.png" alt="Çevre Bakanlığı Logo" class="logo">
+                    T.C. Çevre, Şehircilik ve İklim Bakanlığı
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/mpwjFZw.jpg" alt="TUSAŞ Logo" class="logo">
+                    Türk Havacılık ve Uzay Sanayi A.Ş.
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/tWxUBcV.png" alt="VakıfGYO Logo" class="logo">
+                    VakıfGYO
+                </li>
+                <li class="institution-item">
+                    <img src="https://i.imgur.com/YzDhwxf.png" alt="TOBB Logo" class="logo">
+                    Türkiye Odalar ve Borsalar Birliği
+                </li>
+            </ul>
+        </div>
+        <div id="tab-6" class="tab-content">
+            <h2>İletişim</h2>
+            <p><strong>Email  :</strong> msamikarakas@gmail.com</p>
+            <p><strong>Telefon:</strong> +90 538 694 87 75</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/muhammet-sami-karaka%C5%9F-45840ab5/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <div id="tab-7" class="tab-content">
+            <h2>CV İndir</h2>
+            <a href="path/to/your-cv.pdf" download="Muhammet_Sami_Karakas_CV.pdf">CV'yi İndir</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024-Muhammet Sami Karakaş</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
